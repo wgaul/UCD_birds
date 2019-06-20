@@ -11,6 +11,7 @@ library(Hmisc)
 library(tidyverse)
 library(lubridate)
 
+# user will need to set the path to read the data
 fnames <- list.files("~/Documents/UCD/birds/casey_project/data/casey_digitised_ledgers/")
 
 fnames <- fnames[grepl(pattern = ".*csv$", x = fnames)]
